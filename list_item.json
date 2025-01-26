@@ -1,0 +1,81 @@
+{
+  "itens": [
+    {
+      "id": 1,
+      "nome": "Espada Longa",
+      "descricao": "Uma espada longa, ideal para combates corpo a corpo.",
+      "quantidade": 10,
+      "valor_gold": 100,
+      "trocavel": true,
+      "categoria": "equipavel",
+      "tipo": "Espada",
+      "dano": 25,
+      "level_requerido": 5,
+      "classe_requerida": "Guerreiro",
+      "nivel_fortificacao": 0,
+      "efeitos_adicionais": ["Corte Afiado"]
+    },
+    {
+      "id": 2,
+      "nome": "Cajado de Fogo",
+      "descricao": "Um cajado mágico que conjura chamas poderosas.",
+      "quantidade": 5,
+      "valor_gold": 200,
+      "trocavel": true,
+      "categoria": "equipavel",
+      "tipo": "Cajado",
+      "dano": 35,
+      "level_requerido": 10,
+      "classe_requerida": "Mago",
+      "nivel_fortificacao": 1,
+      "efeitos_adicionais": ["Fogo", "Queimadura"]
+    },
+    {
+      "id": 3,
+      "nome": "Poção de Vida",
+      "descricao": "Restaura 50 pontos de vida ao ser consumida.",
+      "quantidade": 20,
+      "valor_gold": 50,
+      "trocavel": true,
+      "categoria": "diverso",
+      "tipo": "Consumível",
+      "efeito": "Recupera 50 de vida"
+    },
+    {
+      "id": 4,
+      "nome": "Fragmento de Cristal",
+      "descricao": "Um fragmento mágico usado para criar itens poderosos.",
+      "quantidade": 15,
+      "valor_gold": 300,
+      "trocavel": false,
+      "categoria": "diverso",
+      "tipo": "Não Consumível"
+    },
+    {
+      "id": 5,
+      "nome": "Elmo de Aço",
+      "descricao": "Um elmo resistente para proteger a cabeça.",
+      "quantidade": 7,
+      "valor_gold": 150,
+      "trocavel": true,
+      "categoria": "equipavel",
+      "tipo": "Armadura",
+      "dano": 0,
+      "level_requerido": 8,
+      "classe_requerida": "Cavaleiro",
+      "nivel_fortificacao": 0,
+      "efeitos_adicionais": ["Resistência a impacto"]
+    },
+    {
+      "id": 6,
+      "nome": "Poção de Mana",
+      "descricao": "Recupera 30 pontos de mana ao ser consumida.",
+      "quantidade": 10,
+      "valor_gold": 40,
+      "trocavel": true,
+      "categoria": "diverso",
+      "tipo": "Consumível",
+      "efeito": "Recupera 30 de mana"
+    }
+  ]
+}
